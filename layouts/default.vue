@@ -60,7 +60,7 @@
     <div class="footer-content">
       <div class="row">
         <div class="col-lg-8 footer-left">
-          <p class="m-0">{{data.main.shortname}} © Copyright 2021. Developed by <a href="https://baizidmdashadzzaman.com/" target="_blank">ASADZAMAN</a></p>
+          <p class="m-0">{{data.main.shortname}} © Copyright 2022. Developed by <a href="https://github.com/MohammadArefHaidary/" target="_blank">ArefHaidary</a></p>
         </div>
         <div class="col-lg-4 footer-right text-lg-right text-center mt-lg-0 mt-3">
           <ul class="social m-0 p-0">
@@ -85,15 +85,13 @@
 </div>
 </template>
 <script>
-import data from '~/static/api/data.json'
+import data from "~/static/api/data.json";
 export default {
-    
-    name:"index",
-    data(){
-        return {
-            data:data,
-			
-        }
-    }
-}
+  name: "index",
+  data() {
+    return {
+      data: data,
+    };
+  },
+};
 </script>
